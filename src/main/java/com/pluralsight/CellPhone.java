@@ -56,6 +56,9 @@ public class CellPhone {
         this.owner = owner;
     }
 
+    public void dial(String phoneNumber) {
+        this.phoneNumber = phoneNumber;
+    }
     @Override
     public String toString() {
         return "CellPhone{" +
